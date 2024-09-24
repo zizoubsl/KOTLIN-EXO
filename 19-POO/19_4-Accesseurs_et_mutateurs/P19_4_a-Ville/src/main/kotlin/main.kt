@@ -1,5 +1,5 @@
 class City(val name: String) {
-    var population: Int
+    var population: Int = 0
 }
 
 fun main() {

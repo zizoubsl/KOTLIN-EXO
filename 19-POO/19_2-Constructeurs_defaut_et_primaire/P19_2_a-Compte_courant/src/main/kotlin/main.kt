@@ -1,4 +1,9 @@
-// write the BankAccount class here
+class BankAccount(deposited: Long, Withdrawn: Long){
+
+    var balance =deposited - Withdrawn
+
+}
+
 
 
 fun main() {

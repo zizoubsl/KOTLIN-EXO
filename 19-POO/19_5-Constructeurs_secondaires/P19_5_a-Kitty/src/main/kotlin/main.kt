@@ -1,5 +1,20 @@
 class Kitty {
-    // write here
+    var couleur: String = ""
+    var age: Int = 0
+    constructor(color: String, age_: Int){
+        couleur = color
+        age = age_
+    }
+    constructor(age_: Int, color: String){
+        age = age_
+        couleur = color
+    }
+    constructor(color: String){
+        couleur = color
+    }
+    constructor(age_: Int){
+        age = age_
+    }
 }
 
 
